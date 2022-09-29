@@ -1,5 +1,6 @@
 .profile-info{
     background-color: rgb(242, 242, 242);
+    border-radius: 5px;
 }
 .profile-img{
     width: 50px;
@@ -8,7 +9,7 @@
     margin-left: 2%;
     margin-top: 2%;
 }
-.Profile{
+.profile{
     display: flex;
     
 }

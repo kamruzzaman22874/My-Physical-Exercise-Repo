@@ -20,7 +20,7 @@ const Home = () => {
     }
    const cardActivity = ()=>{
      Swal.fire(
-        'Good job!',
+        'Hello Boss!',
         'Your Activity complete !',
         'success'
       )

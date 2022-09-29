@@ -10,7 +10,7 @@ const CardSingle = ({singleCard ,addToCart}) => {
         <h3>{title}</h3>
         <p>Age : {age} </p>
         <p>Time required : {time}</p>
-        <button onClick={()=>addToCart(time)} className='ATC-Btn'>Add To Cart</button>
+        <button onClick={()=>addToCart(time)} className='card-btn'>Add To Cart</button>
         </div>
         </div>
     );

@@ -2,6 +2,7 @@ import React from 'react';
 import Profile from '../Profile/Profile';
 import './SideBar.css'
 const SideBar = ({timeAdded}) => {
+
     return (
         <div>
             <div className='cart'>
@@ -24,8 +25,8 @@ const SideBar = ({timeAdded}) => {
            <h5>Break time: <span>0</span></h5>
            </div>
    
-           </div>
-           <button className='success-btn'>Activity Completed</button>
+            </div>
+                <button className='success-btn'>Activity Completed</button>
             </div>
         </div>
     );

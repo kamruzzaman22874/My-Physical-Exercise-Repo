@@ -30,7 +30,7 @@ const SideBar = ({timeAdded , cardActivity}) => {
             <Profile></Profile>
             <hr/>
             <div className='break-container'>
-            <h4 className='add-break'>Add A Break</h4>
+            <h4 className='add-break'>Add A Break :</h4>
             <div className='count-container'>
               <button onClick={(e)=> handleBtn(e)}>05Min</button>      
               <button onClick={(e)=> handleBtn(e)}>10Min</button>        
@@ -40,10 +40,10 @@ const SideBar = ({timeAdded , cardActivity}) => {
             </div>
            </div>
            <div className='Exercise-Details'>
-           <h4 className='title'>Exercise-Details</h4>
+           <h4 className='title'>Exercise-Details :</h4>
            <div className='Exercise-Count'>
-           <h4>Exercise time: <span>{timeAdded}min</span></h4>
-           <h5>Break time: <span>{timeBreak}</span></h5>
+           <h4>Exercise time: <span>{timeAdded} min</span></h4>
+           <h5>Break time: <span>{timeBreak} min</span></h5>
            </div>
    
             </div>

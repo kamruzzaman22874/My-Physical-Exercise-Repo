@@ -40,7 +40,9 @@ hr{
 .add-break{
     position: absolute;
     left: 45px;
-     top: -40px;
+    top: -40px;
+    font-weight: 700;
+
 }
 .count-container{
     display: flex;

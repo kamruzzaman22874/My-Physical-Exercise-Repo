@@ -20,7 +20,7 @@ const Profile = () => {
 
            
            <div className='height'>
-              <h5>75</h5>
+              <h5>68Kg</h5>
               <p>Weight</p>
            </div>
 

@@ -5,13 +5,13 @@ const CardSingle = ({singleCard ,addToCart}) => {
     // console.log(singleCard)
     return (
         <div>
-        <div className='card-container'>
-        <img className='img' src={picture} alt="" />
-        <h3>{title}</h3>
-        <p>Age : {age} </p>
-        <p>Time required : {time}</p>
-        <button onClick={()=>addToCart(time)} className='card-btn'>Add To Cart</button>
-        </div>
+            <div className='card-container'>
+            <img className='img' src={picture} alt="" />
+            <h3>{title}</h3>
+            <p>Age : {age} </p>
+            <p>Time required : {time}</p>
+            <button onClick={()=>addToCart(time)} className='card-btn'>Add To Cart</button>
+            </div>
         </div>
     );
 };

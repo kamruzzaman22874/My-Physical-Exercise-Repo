@@ -1,12 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Blog from './Component/Blog/Blog';
+import Home from './Component/Home/Home';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
-}
+
+const App = () => {
+    return (
+        <div>
+            <Home></Home>
+            <Blog></Blog>
+        </div>
+    );
+};
 
 export default App;
+
+
+

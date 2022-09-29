@@ -1,0 +1,128 @@
+.cart{
+    margin-top: 5px;
+    padding: 0;
+    height: 80%;
+    margin-right: 2%;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+hr{
+    width: 0;
+    height: 4px;
+    transition: widthIncrease 0.5s infinite  ease-in;
+}
+@keyframes widthIncrease {
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 25%;
+    }
+    50%{
+        width: 50%;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.break-container{
+    margin-top: 80px;
+    position: relative;
+    padding: 20px;
+    margin-left: -15px;
+}
+.add-break{
+    position: absolute;
+    left: 45px;
+     top: -40px;
+}
+.count-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(197, 197, 203);
+    border-radius: 10px;
+    padding: 15px;
+    width: 360px;
+    
+}
+.count-container button{
+    border-radius: 50%;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button{
+    margin-top: 10px;
+    transition: 0.5s;
+    
+    padding: 15px;
+}
+button:hover{
+    background: blue;
+    color: white;
+    border: 1px solid blue;
+}
+.Exercise-Details{
+    margin-top: 100px;
+    position: relative;
+    margin-left: -25px;
+}
+
+.Exercise-Details .title{
+    position: absolute;
+    left: 45px;
+     top: -100px;
+}
+
+.Exercise-Count{
+    position: relative;
+}
+.Exercise-Count h4{
+     position: absolute;
+     left: 45px;
+     top: -20px;
+     background-color: rgb(120, 119, 116);
+     padding: 12px;
+     width: 250px;
+}
+.Exercise-Count h5{
+    position: absolute;
+    left: 45px;
+    bottom: -15px;
+    font-size: 17px;
+    background-color: rgb(120, 119, 116);
+    padding: 10px;
+    width: 250px;
+    
+}
+.success-btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 14px;
+    width: 100%;
+    background: blue;
+    color: white;
+    font-size: 22px;
+    border: 1px solid blue;
+}
+.success-btn:hover{
+    background-color: rgb(176, 176, 176);
+    border: none;
+}
+@media screen and (min-width:576px) and (max-width: 768px) {
+    .cart{
+        margin-top: 50px;
+        width: 100%;
+        grid-template-columns: 1fr;
+        height: 100%;
+        padding-bottom: 50px;
+    }
+}

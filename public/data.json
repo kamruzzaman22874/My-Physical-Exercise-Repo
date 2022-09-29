@@ -1,0 +1,38 @@
+    [
+    {
+      "title": "Matcle Shapping",
+      "picture": "https://cdn.dribbble.com/userupload/3267533/file/original-a4bd22d3002fe7ad76cb7390bddc5071.png?resize=400x0",
+      "age": 33,
+      "time" : "20min"
+    },
+    {
+      "title": "Yoga",
+      "picture": "https://www.zarla.com/images/zarla-yoga-logos-5472x3648-20211103.jpg?crop=21:16,smart&width=420&dpr=2",
+      "age": 34,
+      "time" : "30min"
+    },
+    {
+      "title": "Plank Exercise",
+      "picture": "https://vinmec-prod.s3.amazonaws.com/images/20210220_012909_981461_plank.max-1800x1800.jpg",
+      "age": 24,
+      "time" : "25min"
+    },
+    {
+      "title": "Situp Crunches",
+      "picture": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/06/man-doing-crunches.jpg?quality=82&strip=all",
+      "age": 29,
+      "time" : "35min"
+    },
+    {
+    "title": "Tredemeal",
+      "picture": "https://i.ndtvimg.com/i/2017-02/exercise-fitness-health-heart-rate_650x400_61487068047.jpg",
+      "age": 27,
+      "time" : "15min"
+    },
+    {
+      "title": "Elliptical",
+      "picture": "https://octanefitness.com/app/uploads/2020/09/RowingIntervalTraining.jpg",
+      "age": 35,
+      "time" : "40min"
+    }
+  ]

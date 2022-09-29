@@ -1,0 +1,16 @@
+.blog-container{
+    font-size:18px;
+    margin: 20px;
+    margin-top: 120px;
+}
+.blog-heading{
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+}
+.blog-pera{
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 2px 2px 4px burlywood;
+}

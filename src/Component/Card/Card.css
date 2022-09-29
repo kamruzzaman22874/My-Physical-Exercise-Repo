@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;   
+}
+@media screen and (min-width:576px) and (max-width: 768px) {
+    .container{
+       display: block;
+    }
+   }

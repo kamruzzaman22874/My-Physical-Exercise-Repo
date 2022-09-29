@@ -1,0 +1,54 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 10%;
+    padding: 5px;
+    
+}
+.logo-container{
+    display: flex;
+    
+}
+.logo-container img{
+    width: 50px;
+    margin-left: 15px;
+}
+.logo-container a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    font-size: 22px;
+}
+.logo-container p{
+    font-weight: 700;
+    font-size: 22px;
+    color: burlywood;
+    margin-left: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 5px;
+}
+.menu a:hover{
+    color: #000;
+}
+
+@media screen and (min-width:576px) and (max-width: 768px) {
+    .nav-container{
+        width: 100%;
+    }
+    .logo-container a{
+        margin-left: 5px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+}

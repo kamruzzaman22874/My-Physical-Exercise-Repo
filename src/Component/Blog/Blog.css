@@ -7,6 +7,8 @@
     text-align: center;
     background-color: aqua;
     padding: 20px;
+    color: rgb(44, 43, 42);
+    border-radius: 5px;
 }
 .blog-pera{
     background-color: antiquewhite;

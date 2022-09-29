@@ -32,10 +32,10 @@ const SideBar = ({timeAdded , cardActivity}) => {
             <div className='break-container'>
             <h4 className='add-break'>Add A Break</h4>
             <div className='count-container'>
-              <button onClick={(e)=> handleBtn(e)}>10Min</button>      
-              <button onClick={(e)=> handleBtn(e)}>20Min</button>        
-              <button onClick={(e)=> handleBtn(e)}>30Min</button>      
-              <button onClick={(e)=> handleBtn(e)}>40Min</button>
+              <button onClick={(e)=> handleBtn(e)}>05Min</button>      
+              <button onClick={(e)=> handleBtn(e)}>10Min</button>        
+              <button onClick={(e)=> handleBtn(e)}>15Min</button>      
+              <button onClick={(e)=> handleBtn(e)}>20Min</button>
               
             </div>
            </div>

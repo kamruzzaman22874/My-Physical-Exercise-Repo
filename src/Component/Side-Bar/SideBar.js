@@ -24,7 +24,6 @@ const SideBar = ({timeAdded , cardActivity}) => {
 
 // console.log(timeBreak);
 
-
     return (
         <div>
             <div className='cart'>

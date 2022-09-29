@@ -11,7 +11,7 @@ const Blog = () => {
             </div>
             <div>
                 <h4 className='blog-heading'>
-                    Difference between UseState And props...?
+                   What is Difference between UseState And props...?
                 </h4>
                 <p className='blog-pera'>
                 Props (short for properties) are a Component's configuration. They are received from above and immutable as far as the Component receiving them is concerned. A Component cannot change its props, but it is responsible for putting together the props of its child Components. Props do not have to just be data -- callback functions may be passed in as props.

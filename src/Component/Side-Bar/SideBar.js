@@ -1,7 +1,7 @@
 import React from 'react';
 import Profile from '../Profile/Profile';
 import './SideBar.css'
-const SideBar = ({timeAdded}) => {
+const SideBar = ({timeAdded , cardActivity}) => {
 
     return (
         <div>
@@ -26,7 +26,7 @@ const SideBar = ({timeAdded}) => {
            </div>
    
             </div>
-                <button className='success-btn'>Activity Completed</button>
+                <button onClick={cardActivity} className='success-btn'>Activity Completed</button>
             </div>
         </div>
     );
